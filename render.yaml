@@ -1,5 +1,5 @@
 services:
--  type: web
+- type: web
   name: hyper63-nano
   env: node
   healthCheckPath: /
