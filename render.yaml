@@ -12,3 +12,5 @@ services:
     envVars:
       - key: DATA
         value: /data
+      - key: SECRET
+        generateValue: true
