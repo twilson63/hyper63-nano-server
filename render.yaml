@@ -2,6 +2,7 @@ services:
   - type: web
     name: hyper63-nano
     env: node
+    buildCommand: yarn
     startCommand: node index.js
     disk:
       name: hyper63-data
