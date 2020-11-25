@@ -1,0 +1,12 @@
+services:
+  type: web
+  name: hyper63-nano
+  env: node
+  healthCheckPath: /
+  disk:
+    name: hyper63-data
+    mountPath: /usr/share/hyper63-nano/data
+    sizeGB: 5
+  envVars:
+  - key: DATA
+    value: /usr/share/hyper63-nano/data
