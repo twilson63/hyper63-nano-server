@@ -26,10 +26,10 @@
     crocks "^0.12.4"
     ramda "^0.27.1"
 
-"@hyper63/adapter-minisearch@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@hyper63/adapter-minisearch/-/adapter-minisearch-1.0.4.tgz#2ef57ee6d51b05d7d83c1259ba93a7e6a724f17a"
-  integrity sha512-uEuFvDOaiSI663zAZOdFdofcG4IvqbPO+HLMFoGzdtXSt39B0ro2XVanQPG2iVgf6p6Kr0XHetYK4+LLKi1MJw==
+"@hyper63/adapter-minisearch@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@hyper63/adapter-minisearch/-/adapter-minisearch-1.0.5.tgz#2c86a78770370d022c193ebe42f9999a0fe418e1"
+  integrity sha512-xI+Upbt0c7Slxsk/CqWoCJEG1/KGz2dyOw29lGJvsGnpaeZauW6HWRbBEVocNCtOJxp/ITY2wONXqO7++xGXGQ==
   dependencies:
     crocks "^0.12.4"
     minisearch "^3.0.2"
