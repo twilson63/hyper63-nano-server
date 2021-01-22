@@ -9,8 +9,8 @@
     "@hyper63/adapter-memory": "^1.1.2",
     "@hyper63/adapter-minisearch": "^1.0.5",
     "@hyper63/adapter-pouchdb": "^1.1.4",
-    "@hyper63/app-express": "^1.0.4",
-    "@hyper63/core": "^1.0.14",
+    "@hyper63/app-express": "^1.0.6",
+    "@hyper63/core": "^1.2.0",
     "express-jwt": "^6.0.0"
   },
   "devDependencies": {

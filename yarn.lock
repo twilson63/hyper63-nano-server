@@ -46,10 +46,10 @@
     ramda "^0.27.1"
     rimraf "^3.0.2"
 
-"@hyper63/app-express@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.4.tgz#d7d4f8f9639f86aceadc772d97aeddd8b3537553"
-  integrity sha512-0hIf9yRKS8mBrsZXt1zRm5/Hm8xVcNkOwD0RsnRTTVeDrJUM0r8HYUEhjP01P1P8zU5pu3gMeA6ZnoAZzkJ5vg==
+"@hyper63/app-express@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.6.tgz#9d09de0b6a0f95dffbf81b8f265f104f6e96bf0a"
+  integrity sha512-TgYt0sjKfSXMBQb8l7IEYQMTpz0xzvOgqQmfr6TH16ne35XtOOO83sTE0v5E5L/iihfNJM86opMoonVMBrkMUA==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
@@ -57,13 +57,13 @@
     mime "^2.4.6"
     multer "^1.4.2"
 
-"@hyper63/core@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.0.14.tgz#db1dddf5b9c5911baacab39fa3f052415cb9df52"
-  integrity sha512-z5OhW5mqG6qvIF66xjcV3QOAkLUyU+k73ox6zNJkBtb2Smz5eTetPMmXNRnQo8wP+0bzxlj08aRz3EVOy/RWMQ==
+"@hyper63/core@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.0.tgz#e805117b7f2f4e79a14637bd287dc2edf3e0faf1"
+  integrity sha512-tgmfDzm8DOvIp56xSZYbe4dy0QAt9R9bFsUGN37Fka0RwuUTr2uYRyR0tis/x1ooTlWh8i4PitTMA1BJHzlqWg==
   dependencies:
     "@hyper63/port-cache" "^1.0.0"
-    "@hyper63/port-data" "^1.0.1"
+    "@hyper63/port-data" "1.0.8"
     "@hyper63/port-search" "^1.0.0"
     "@hyper63/port-storage" "^1.0.0"
     crocks "^0.12.4"
@@ -77,10 +77,10 @@
   dependencies:
     zod "^2.0.0-beta.22"
 
-"@hyper63/port-data@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.2.tgz#3cae0f34674bfe2a85cdd43fe3530189368b4c65"
-  integrity sha512-E8BZ9AXNd8y6vLmV1jeLiRUoaYHrQrR5NMXgdPPnIQ1In1iWMP/Dimri0yWDxoH/b6NoHEHFJn9ViI0rJNLj2A==
+"@hyper63/port-data@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.8.tgz#b2bc12d8411c01aa378563ed109578246c12edee"
+  integrity sha512-dMcBWIlC2DPCJ7nWJdqJnukYephsgqhcF470d3n4OKprZF0uE6Uuycv786s3zWoNRRI4rxkDvw3Ukk9H6H9MYA==
   dependencies:
     zod "^2.0.0-beta.22"
 
