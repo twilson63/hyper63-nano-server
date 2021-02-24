@@ -46,17 +46,10 @@
     ramda "^0.27.1"
     rimraf "^3.0.2"
 
-<<<<<<< HEAD
 "@hyper63/app-express@^1.0.11":
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.11.tgz#c2436a1d244e3a03d660cb5f6dc991e87e753380"
   integrity sha512-WnrQ9+y4jgpaxL1mdNNJW+E6RTS8WO+MHwalLdERKN3A3FEOeoXMt7Iu2NrpDh4QXU0MA/VxLel5CI/wflsp5g==
-=======
-"@hyper63/app-express@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.6.tgz#9d09de0b6a0f95dffbf81b8f265f104f6e96bf0a"
-  integrity sha512-TgYt0sjKfSXMBQb8l7IEYQMTpz0xzvOgqQmfr6TH16ne35XtOOO83sTE0v5E5L/iihfNJM86opMoonVMBrkMUA==
->>>>>>> 41d74404496d7868d465e38d7ec93b6319b7672b
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
@@ -64,7 +57,6 @@
     mime "^2.4.6"
     multer "^1.4.2"
 
-<<<<<<< HEAD
 "@hyper63/core@^1.2.6":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.6.tgz#bf9cebba394856de4fdfb864432cafad0ef68520"
@@ -73,16 +65,6 @@
     "@hyper63/port-cache" "^1.0.0"
     "@hyper63/port-data" "^1.0.9"
     "@hyper63/port-search" "^1.0.1"
-=======
-"@hyper63/core@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.0.tgz#e805117b7f2f4e79a14637bd287dc2edf3e0faf1"
-  integrity sha512-tgmfDzm8DOvIp56xSZYbe4dy0QAt9R9bFsUGN37Fka0RwuUTr2uYRyR0tis/x1ooTlWh8i4PitTMA1BJHzlqWg==
-  dependencies:
-    "@hyper63/port-cache" "^1.0.0"
-    "@hyper63/port-data" "1.0.8"
-    "@hyper63/port-search" "^1.0.0"
->>>>>>> 41d74404496d7868d465e38d7ec93b6319b7672b
     "@hyper63/port-storage" "^1.0.0"
     crocks "^0.12.4"
     cuid "^2.1.8"
@@ -95,17 +77,10 @@
   dependencies:
     zod "^2.0.0-beta.22"
 
-<<<<<<< HEAD
 "@hyper63/port-data@^1.0.9":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.9.tgz#863e46418be012e79870fcf4c52527bb7005db52"
   integrity sha512-3yGMTP03pWfuUjNRG/xvKnvc2FFYVmIALpYHxTbZdCQbejCqD/1ECOJoHBLYmGXBrl52PvfANJiEqRpgOngSTw==
-=======
-"@hyper63/port-data@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.8.tgz#b2bc12d8411c01aa378563ed109578246c12edee"
-  integrity sha512-dMcBWIlC2DPCJ7nWJdqJnukYephsgqhcF470d3n4OKprZF0uE6Uuycv786s3zWoNRRI4rxkDvw3Ukk9H6H9MYA==
->>>>>>> 41d74404496d7868d465e38d7ec93b6319b7672b
   dependencies:
     zod "^2.0.0-beta.22"
 
