@@ -35,10 +35,10 @@
     minisearch "^3.0.2"
     ramda "^0.27.1"
 
-"@hyper63/adapter-pouchdb@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@hyper63/adapter-pouchdb/-/adapter-pouchdb-1.1.4.tgz#3f3b0e8206d2d5ce8fb4180812e86af4dd8c9ffb"
-  integrity sha512-9bBrO48XrJiJrGJpOlbqEoYuhuXNxEk2Yetr4vcnOfXz/TdOoO5ux4vSb4eTa0WYAm2aenWQulTRHM1aWHXuqA==
+"@hyper63/adapter-pouchdb@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@hyper63/adapter-pouchdb/-/adapter-pouchdb-1.1.8.tgz#4d88883c49188b9227c2f2fd2fd38c06e3fc64df"
+  integrity sha512-FD8fJzkzANYMyVA1Kbc1OOYMxePjJWpvjyyYX1Sj+jzIXm61KWoHpaPZB4FVPS/aagTPZXNCakj0icWZ9OxVbw==
   dependencies:
     mkdirp "^1.0.4"
     pouchdb "^7.2.2"
@@ -46,10 +46,10 @@
     ramda "^0.27.1"
     rimraf "^3.0.2"
 
-"@hyper63/app-express@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.4.tgz#d7d4f8f9639f86aceadc772d97aeddd8b3537553"
-  integrity sha512-0hIf9yRKS8mBrsZXt1zRm5/Hm8xVcNkOwD0RsnRTTVeDrJUM0r8HYUEhjP01P1P8zU5pu3gMeA6ZnoAZzkJ5vg==
+"@hyper63/app-express@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.11.tgz#c2436a1d244e3a03d660cb5f6dc991e87e753380"
+  integrity sha512-WnrQ9+y4jgpaxL1mdNNJW+E6RTS8WO+MHwalLdERKN3A3FEOeoXMt7Iu2NrpDh4QXU0MA/VxLel5CI/wflsp5g==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
@@ -57,14 +57,14 @@
     mime "^2.4.6"
     multer "^1.4.2"
 
-"@hyper63/core@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.0.14.tgz#db1dddf5b9c5911baacab39fa3f052415cb9df52"
-  integrity sha512-z5OhW5mqG6qvIF66xjcV3QOAkLUyU+k73ox6zNJkBtb2Smz5eTetPMmXNRnQo8wP+0bzxlj08aRz3EVOy/RWMQ==
+"@hyper63/core@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.6.tgz#bf9cebba394856de4fdfb864432cafad0ef68520"
+  integrity sha512-h/DREyHwilL07jCoIqwrxonoqSgAHEJVO4l0+4yteAZchfWwH+Qgaj0qPQMOXf8pPqG4L1Nd44l123MP9yFdTw==
   dependencies:
     "@hyper63/port-cache" "^1.0.0"
-    "@hyper63/port-data" "^1.0.1"
-    "@hyper63/port-search" "^1.0.0"
+    "@hyper63/port-data" "^1.0.9"
+    "@hyper63/port-search" "^1.0.1"
     "@hyper63/port-storage" "^1.0.0"
     crocks "^0.12.4"
     cuid "^2.1.8"
@@ -77,20 +77,20 @@
   dependencies:
     zod "^2.0.0-beta.22"
 
-"@hyper63/port-data@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.2.tgz#3cae0f34674bfe2a85cdd43fe3530189368b4c65"
-  integrity sha512-E8BZ9AXNd8y6vLmV1jeLiRUoaYHrQrR5NMXgdPPnIQ1In1iWMP/Dimri0yWDxoH/b6NoHEHFJn9ViI0rJNLj2A==
+"@hyper63/port-data@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.9.tgz#863e46418be012e79870fcf4c52527bb7005db52"
+  integrity sha512-3yGMTP03pWfuUjNRG/xvKnvc2FFYVmIALpYHxTbZdCQbejCqD/1ECOJoHBLYmGXBrl52PvfANJiEqRpgOngSTw==
   dependencies:
     zod "^2.0.0-beta.22"
 
-"@hyper63/port-search@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-search/-/port-search-1.0.0.tgz#a2b5d46cd3ca46451ae2e9e174e3fcdd940217dc"
-  integrity sha512-50jfVQp6v9omZiH2vPfPL3Z+PJYQzVxa37iUhcWbeKtp+IONTjx2GB1ny8Gn4MOAYcOBfdpPQWPll2nS3zH0Lw==
+"@hyper63/port-search@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-search/-/port-search-1.0.1.tgz#f608e4452ebeb69d2a1993e14f6bb31c96465f52"
+  integrity sha512-6xn7XDFUIJKVDWq6jzchms3odxfd/K4gwSks9Cy64RClFlDjT9lXbPqvg/NGIbiaDVK/eyXnPQVs8uzPpyWJZQ==
   dependencies:
     crocks "^0.12.4"
-    zod "^2.0.0-beta.22"
+    zod "^3.0.0-alpha.4"
 
 "@hyper63/port-storage@^1.0.0":
   version "1.0.0"
@@ -1402,3 +1402,8 @@ zod@^2.0.0-beta.22:
   version "2.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/zod/-/zod-2.0.0-beta.22.tgz#57c7a98a81ad60c076a5c7dca9f205182e66afda"
   integrity sha512-A0UldVo1gA8OkXrVv6AuVPMiyGD2wPFc0iTIsK/DSavFNKke6Cgp1VwqaeM/FY1cui5t8I46iqsKNxUPHjIlpQ==
+
+zod@^3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.0.0-alpha.4.tgz#530efd89f292c5840f9d8b0854427948b0314649"
+  integrity sha512-pOtx1/JRT4NQ3K0wlnVAFDMY6Kvsb0xIMZvAaVzZBDUFKUS6OgZtrztcpI5NqCB4KMexcbgXgKxgpOpia9SFSw==
