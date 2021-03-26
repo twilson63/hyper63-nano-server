@@ -9,7 +9,7 @@ module.exports = {
   adapters: [
     { port: 'cache', plugins: [memory()]},
     { port: 'data', plugins: [pouchdb({dir: process.env.DATA})]},
-    { port: 'queue', plugins: [zmq('7373')]
+    { port: 'queue', plugins: [zmq('7373')]}
   ],
   middleware: [jwt]
 
